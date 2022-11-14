@@ -1,15 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Javascript problems</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body class="appBodyColour">
-<div>Please check console</div>
-</body>
-<!-- <script src="js/overlap_intervels.js"></script> -->
-<!-- <script src="js/reverse_integer.js"></script> -->
-<script src="js/currying.js"></script>
+  <head>
+    <meta charset="utf-8" />
+    <title>Javascript problems</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/app.css" />
+  </head>
+  <body class="appBodyColour">
+    <div>Please check console</div>
+
+    <!-- Tooltip code start -->
+    <!-- <div
+      id="dataDiv"
+      onmouseover="openToolTip('text', this)"
+      onmouseleave="closeToolTip()"
+    >
+      Tooltip
+    </div> -->
+    <div id="tooltipBase"></div>
+    <!-- Tooltip code end -->
+
+    <!-- Clipboard copy and notch notification start-->
+    <!-- <input type="text" id="myinput" />
+    <button onclick="copy()">Copy</button>
+    <div id="stickyMsg"></div> -->
+
+    <!-- Clipboard copy and notch notification end-->
+    <!-- Drag and drop start-->
+    <div id="dragMe" class="draggable">Drag me</div>
+    <!-- Drag and drop end-->
+    <!-- HTML5 grag and drop -->
+    <div class="container">
+      <h1>JavaScript - Drag and Drop</h1>
+      <div class="drop-targets">
+          <div class="box">
+              <div class="item" id="item" draggable="true">
+              </div>
+          </div>
+          <div class="box"></div>
+          <div class="box"></div>
+      </div>
+  </div>
+  </body>
+  <!-- <script src="js/overlap_intervels.js"></script> -->
+  <!-- <script src="js/reverse_integer.js"></script> -->
+  <script src="js/problems_new.js"></script>
 </html>

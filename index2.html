@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Javascript problems</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/app.css" />
+    <style>
+      #tooltip {
+        width:150px;
+        height: 30px;
+        z-index: 1000;
+        background-color:beige;
+        display: none;
+        position: fixed;
+      }
+    </style>
+  </head>
+  <body class="appBodyColour">
+    <div>Please check console</div>
+    <div id="tooltip"></div>
+    <!-- <div onmouseover="createTooltip(this, 'hello')" onmouseout="removeTooltip()" id="tooltip1">Create tooltip</div> -->
+    <div id="dragMe" class="draggable">Drag to move</div>
+  </body>
+  <script src="js/random.js"></script>
+</html>
